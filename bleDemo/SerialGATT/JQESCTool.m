@@ -35,6 +35,7 @@
     return self;
 }
 
+// 通过
 /**
  * 3、打印文本。
  * @param text 表示所要打印的文本内容。
@@ -57,6 +58,7 @@
 // */
 //- (Boolean)esc_read(Byte Bytes) {return mBluetoothPort.isOpen && mBluetoothPort.read(Bytes,0,Bytes.length,1000);}
 
+// 通过
 /**
  * 6、初始化打印机。
  * 使所有设置恢复到打印机开机时的默认值模式。
@@ -66,6 +68,7 @@
     return [self.bleManager writeCmd:reset cmdLenth:sizeof(reset)];
 }
 
+// 通过
 /**
  * 7、选择加粗模式。
  *
@@ -80,6 +83,7 @@
     return [self.bleManager writeCmd:esc_bold cmdLenth:sizeof(esc_bold)];
 }
 
+// 通过
 /**
  * 8、选择/取消下划线模式。
  * @param n 当n=1或n=49时选择下划线模式且设置为1点宽，当n=2或n=50时选择下划线模式且设置为2点宽，当n取其他值时取消下划线模式。
@@ -94,6 +98,7 @@
     return [self.bleManager writeCmd:esc_underline cmdLenth:sizeof(esc_underline)];
 }
 
+// 通过
 /**
  * 9、打印和行进。
  * 基于当前的行间距，打印缓冲区内的数据并走纸一行。
@@ -121,6 +126,7 @@
     return [self.bleManager writeCmd:esc_left_black_label cmdLenth:sizeof(esc_left_black_label)];
 }
 
+// 通过
 /**
  * 12、打印并回车。
  * 该指令等同于LF指令，既打印缓冲区内的数据并走纸一字符行。
@@ -312,6 +318,7 @@
     return [self.bleManager writeCmd:esc_print_formfeed cmdLenth:sizeof(esc_print_formfeed)];
 }
 
+// 不生效
 /**
  * 21、选择字体。
  * @param n 当n=1或n=49时选择字体B，当n=2或n=50时选择字体C，当n=3或n=51时选择字体D，当n为其他值时选择字体A。
@@ -354,6 +361,7 @@
     return [self.bleManager writeCmd:esc_national_character_set cmdLenth:sizeof(esc_national_character_set)];
 }
 
+// 通过
 /**
  * 23、选择/取消顺时针旋转90°。
  * @param n 当n=1或n=49时设置90°顺时针旋转模式，当n=2或n=50时设置180°顺时针旋转模式，当n=3或n=51时设置270°顺时针旋转模式，
@@ -390,6 +398,7 @@
     return [self.bleManager writeCmd:esc_relative_print_position cmdLenth:sizeof(esc_relative_print_position)];
 }
 
+// 通过
 /**
  * 25、选择对齐模式。
  * @param n 当n=1或n=49时选择居中对齐，当n=2或n=50时选择右对齐，当n取其他值时选择左对齐。
@@ -476,6 +485,7 @@
     return [self.bleManager writeCmd:esc_character_code_page cmdLenth:sizeof(esc_character_code_page)];
 }
 
+// 4倍不生效
 /**
  * 28、选择字符大小。
  * @param n 当n=2时2倍高，当n=3时3倍高，当n=4时4倍高，当n=20时2倍宽，当n=30时3倍宽，当n=40时4倍宽，当n=22时2倍宽高，当n=33时3倍宽高，
@@ -534,6 +544,7 @@
     return [self.bleManager writeCmd:esc_print_download_bitmap cmdLenth:sizeof(esc_print_download_bitmap)];
 }
 
+// 通过
 /**
  * 30、选择/取消黑白反显打印模式。
  * @param b 当b为true时选择黑白反显打印模式，当b为false时取消黑白反显打印模式。

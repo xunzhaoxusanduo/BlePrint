@@ -23,6 +23,7 @@
 		4C1B77581CB15DD100F27DC8 /* 扫描框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B77521CB15DD100F27DC8 /* 扫描框@2x.png */; };
 		4C1B77591CB15DD100F27DC8 /* 扫描线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B77531CB15DD100F27DC8 /* 扫描线@2x.png */; };
 		4C1B775A1CB15DD100F27DC8 /* 白色返回_想去@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B77541CB15DD100F27DC8 /* 白色返回_想去@2x.png */; };
+		4C1E661F1EFD508D00EDB0B8 /* JQBarcode1dController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E661E1EFD508D00EDB0B8 /* JQBarcode1dController.m */; };
 		4C4C166C1EFB7EC300C1AA8E /* JQESCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C166B1EFB7EC300C1AA8E /* JQESCTool.m */; };
 		4CC8C4A11EFCC7B400516B64 /* LXA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8C4A01EFCC7B400516B64 /* LXA.m */; };
 		4CC8C4A41EFCC7CA00516B64 /* LXB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8C4A31EFCC7CA00516B64 /* LXB.m */; };
@@ -112,6 +113,8 @@
 		4C1B77521CB15DD100F27DC8 /* 扫描框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描框@2x.png"; sourceTree = "<group>"; };
 		4C1B77531CB15DD100F27DC8 /* 扫描线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫描线@2x.png"; sourceTree = "<group>"; };
 		4C1B77541CB15DD100F27DC8 /* 白色返回_想去@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白色返回_想去@2x.png"; sourceTree = "<group>"; };
+		4C1E661D1EFD508D00EDB0B8 /* JQBarcode1dController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQBarcode1dController.h; sourceTree = "<group>"; };
+		4C1E661E1EFD508D00EDB0B8 /* JQBarcode1dController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQBarcode1dController.m; sourceTree = "<group>"; };
 		4C4C166A1EFB7EC300C1AA8E /* JQESCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQESCTool.h; sourceTree = "<group>"; };
 		4C4C166B1EFB7EC300C1AA8E /* JQESCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQESCTool.m; sourceTree = "<group>"; };
 		4CC8C49F1EFCC7B400516B64 /* LXA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXA.h; sourceTree = "<group>"; };
@@ -509,6 +512,8 @@
 				4CCFE73C1EFCA57B0038F890 /* JQTextTestController.m */,
 				4CC8C4A51EFCC82800516B64 /* LXTest.h */,
 				4CC8C4A61EFCC82800516B64 /* LXTest.m */,
+				4C1E661D1EFD508D00EDB0B8 /* JQBarcode1dController.h */,
+				4C1E661E1EFD508D00EDB0B8 /* JQBarcode1dController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -707,6 +712,7 @@
 				4CC8C4A41EFCC7CA00516B64 /* LXB.m in Sources */,
 				4CFD85C51CAC1CC300A56E93 /* BaseTableViewController.m in Sources */,
 				4C4C166C1EFB7EC300C1AA8E /* JQESCTool.m in Sources */,
+				4C1E661F1EFD508D00EDB0B8 /* JQBarcode1dController.m in Sources */,
 				4C116E7A1CB9828C00319756 /* JQLabelField.m in Sources */,
 				4C001C641CAEBB9D00BF5E76 /* BleInfo.m in Sources */,
 				4CFD85C81CAC1CC300A56E93 /* BleDeviceManagerViewController.m in Sources */,
